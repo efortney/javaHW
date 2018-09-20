@@ -1,0 +1,13 @@
+Psuedo code for test 1:
+
+First we will need to create a abstract class called employees that will be contain the functions getSalary and getRace in order to perform sorts
+on each employee in the health care system.
+
+Then we will need to create a class BostonEmp, that will be responsible for managing all the employees from the boston location.
+This will allow us to create a compareTo class based on each salary
+
+Doctor, Executive, Nurse will extend the boston employee class, allowing for each class to differ in salary calculations, bonuses, and
+other important details.
+
+We will create a generic manager class that will allow us to sort any object given that the object has some sort of value to compare on.
+So, for employees, we will utilize the compare to method on their salaries.

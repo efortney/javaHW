@@ -1,0 +1,82 @@
+Psuedo code for Problem 2
+
+1) we will need to create a student object
+
+class students {
+    name;           // the name of the bastard
+    ID;             // the id
+    grade;          // int grade
+    letterGrade;    // the letter grade
+
+    // constructor, we'll set it as a no arg constructor and use setters and getters in order to retrieve relevant data
+    student(){ }
+
+
+    // create a method that will allow for calculating the average score of the student
+    int calcAverageScore(int[] scores){
+        int avg;
+
+        // loop through the array, add the score total
+        for i in score avg += i;
+
+        // the average is the total divided by the number of given test
+        avg = avg / scores.length * 100
+
+        return avg;
+    }
+
+    // create a method that will assign a letter score to each grade
+    // we can use a switch statement here, and this method can be a void that sets letter grade based on the result
+    void getGrade(int avg){
+        String grade = "";
+        switch(avg)
+        case avg >= 90 return 'A'
+        break;
+        case avg >= 80 || grade <= 90 return "B"
+        etc etc ...
+
+        **letterGrade = grade;
+    }
+
+    // we need a getter for every student field
+    getName(){ return name}
+    getID(){return ID}
+    getLetterGrade(){return letterGrade}
+    getGrade(){return grade}
+
+} // end of students
+
+2)  Next we will create main. Main will need to be able to perform sorts, read a TSV file, and create student objects and store them in an array list with the array list, well need to perform comparisons, show each students grade as a percent and a letter.
+
+    class main{
+
+    File students
+    ArrayList<Student> = new ArrayList<Student>
+
+    // need a method to read the file and create the array
+    createList(File file){
+          Read in using a buffered reader
+  	create a student object for each row in the file
+  	then perform calculations (call other methods)
+  	return the students in an array list
+
+    }
+
+
+
+    void addStudents(class, student list, student obj){
+        class.studentlist = studentList;    // set the student list of a class
+        studentlist.add(student)            // now add the students into the arraylist
+    }
+
+   // this method will allow us to search for a student by their ID number and then delete them from the array list and then add to the array list that contains the dropped students
+
+  void delete students (Array list class, student , Array list droppedstudents ) {
+  	for student in class:
+  	if student.id .equals ID
+  	class. Remove student
+  	droppedStudents. Add student
+  }
+
+
+// then we will sort them based on their grades from

@@ -1,0 +1,21 @@
+Garner J  has an id of 88I9, his grade is a(n) A, a(n) 95%. Garner J 's overall gpa is 3.11. He is ranked as a SR, with 110 hours.
+Jones H A has an id of 45A3, his grade is a(n) B, a(n) 89%. Jones H A's overall gpa is 3.10. He is ranked as a SR, with 98 hours.
+Gach T A has an id of 56J8, his grade is a(n) B, a(n) 83%. Gach T A's overall gpa is 3.16. He is ranked as a SO, with 60 hours.
+Johnson K has an id of 78T6, his grade is a(n) B, a(n) 82%. Johnson K's overall gpa is 3.53. He is ranked as a FR, with 15 hours.
+Hunter C has an id of 34U8, his grade is a(n) C, a(n) 75%. Hunter C's overall gpa is 3.09. He is ranked as a JR, with 75 hours.
+Hinrichs S has an id of 42P4, his grade is a(n) C, a(n) 75%. Hinrichs S's overall gpa is 3.14. He is ranked as a SO, with 52 hours.
+Levitte H has an id of 44L2, his grade is a(n) C, a(n) 73%. Levitte H's overall gpa is 3.06. He is ranked as a SR, with 100 hours.
+Horner M has an id of 34K5, his grade is a(n) F, a(n) 55%. Horner M's overall gpa is 3.11. He is ranked as a FR, with 17 hours.
+!!============Dropped Students==============!!
+Jones H A has an id of 45A3, his grade is a(n) B, a(n) 89%. Jones H A's overall gpa is 3.10. He is ranked as a SR, with 98 hours.
+Hinrichs S has an id of 42P4, his grade is a(n) C, a(n) 75%. Hinrichs S's overall gpa is 3.14. He is ranked as a SO, with 52 hours.
+!!=========Add Students==========!!
+Garner J  has an id of 88I9, his grade is a(n) A, a(n) 95%. Garner J 's overall gpa is 3.11. He is ranked as a SR, with 110 hours.
+Singer A has an id of 98P0, his grade is a(n) A, a(n) 93%. Singer A's overall gpa is 3.06. He is ranked as a SR, with 130 hours.
+Clouse B has an id of 67T4, his grade is a(n) B, a(n) 84%. Clouse B's overall gpa is 3.06. He is ranked as a SR, with 102 hours.
+Gach T A has an id of 56J8, his grade is a(n) B, a(n) 83%. Gach T A's overall gpa is 3.16. He is ranked as a SO, with 60 hours.
+Johnson K has an id of 78T6, his grade is a(n) B, a(n) 82%. Johnson K's overall gpa is 3.53. He is ranked as a FR, with 15 hours.
+Hunter C has an id of 34U8, his grade is a(n) C, a(n) 75%. Hunter C's overall gpa is 3.09. He is ranked as a JR, with 75 hours.
+Garrison J has an id of 45P5, his grade is a(n) C, a(n) 75%. Garrison J's overall gpa is 3.10. He is ranked as a SO, with 39 hours.
+Levitte H has an id of 44L2, his grade is a(n) C, a(n) 73%. Levitte H's overall gpa is 3.06. He is ranked as a SR, with 100 hours.
+Horner M has an id of 34K5, his grade is a(n) F, a(n) 55%. Horner M's overall gpa is 3.11. He is ranked as a FR, with 17 hours.

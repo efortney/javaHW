@@ -1,0 +1,12 @@
+#   Files that should not be uploaded to the repository
+
+*.class
+*.jar
+
+#   You should modify the following line by removing the # sign.  This will
+#   block the credentials.xml file from being uploaded to the public repository.
+#   I am supplyling a generic credentials file in the repository.  You will
+#   need to modify the file by adding your own api key and the password.
+
+credentials.xml
+

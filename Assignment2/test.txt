@@ -1,0 +1,24 @@
+Data for PB
+data chars processed 60000.0
+data chars total cost 1080.0
+print chars processed 100000.0
+print chars total cost 7.0
+total cost for the branch 1567.0
+total number of chars processed 235000.0
+
+Data for FB
+data chars processed 150000.0
+data chars total cost 1050.0
+print chars processed 119000.0
+print chars total cost 10.709999999999997
+total cost for the branch 1063.41
+total number of chars processed 269000.0
+
+Data for MB
+data chars processed 140000.0
+data chars total cost 1148.0
+print chars processed 335000.0
+print chars total cost 31.825
+total cost for the branch 1198.825
+total number of chars processed 475000.0
+

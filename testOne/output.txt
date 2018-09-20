@@ -1,0 +1,16 @@
+!!==========UNSORTED EMPLOYEES==========!!
+Doctor IM Bones is AA, SSN is 455657890, makes 542500.000000. His state tax is estimated to be 7750.000000, his federal tax is estimated to be 38750.000000.
+Senior Exec IM Boss is HS, SSN is 543126787, makes 480000.000000. His state tax is estimated to be 20000.000000, his federal tax is estimated to be 100000.000000.
+Adm Nurse UR Temp is CA, SSN is 789302345, makes 78000.000000. His state tax is estimated to be 32500.000000, his federal tax is estimated to be 16250.000000.
+Doctor DVM Jordan is CA, SSN is 786456712, makes 620000.000000. His state tax is estimated to be 7750.000000, his federal tax is estimated to be 38750.000000.
+!!==========SORTED EMPLOYEES==========!!
+Doctor DVM Jordan is CA, SSN is 786456712, makes 620000.000000. His state tax is estimated to be 7750.000000, his federal tax is estimated to be 38750.000000.
+Doctor IM Bones is AA, SSN is 455657890, makes 542500.000000. His state tax is estimated to be 7750.000000, his federal tax is estimated to be 38750.000000.
+Senior Exec IM Boss is HS, SSN is 543126787, makes 480000.000000. His state tax is estimated to be 20000.000000, his federal tax is estimated to be 100000.000000.
+Adm Nurse UR Temp is CA, SSN is 789302345, makes 78000.000000. His state tax is estimated to be 32500.000000, his federal tax is estimated to be 16250.000000.
+!!==========NUMBERS TEST==========!!
+17.81
+12.91
+5.45
+2.34
+1.23

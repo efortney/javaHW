@@ -1,0 +1,56 @@
+Pushing operator #
+Parsing a + (d%(c+A*b))
+parsing: a
+Operand object: a
+found this char a,value is (0.0, 12.3)
+parsing: +
+This is an operator: +
+found this char: + value: 1
+peeking top of operator stack. -100
+Pushing operator +, priority: 1
+parsing: (
+This is an operator: (
+start of parenthetical expression: (
+parsing: d
+Operand object: d
+found this char d,value is (0.0, -14.5)
+parsing: %
+This is an operator: %
+found this char: % value: 3
+peeking top of operator stack. -99
+Pushing operator %, priority: 3
+parsing: (
+This is an operator: (
+start of parenthetical expression: (
+parsing: c
+Operand object: c
+found this char c,value is (-2000.0, 5.0)
+parsing: +
+This is an operator: +
+found this char: + value: 1
+peeking top of operator stack. -99
+Pushing operator +, priority: 1
+parsing: A
+Operand object: A
+found this char A,value is (30000.0, 75.2)
+parsing: *
+This is an operator: *
+found this char: * value: 2
+peeking top of operator stack. 1
+Pushing operator *, priority: 2
+parsing: b
+Operand object: b
+found this char b,value is (15000.0, 0.0)
+parsing: )
+This is an operator: )
+***EVAL: (30000.0, 75.2)*(15000.0, 0.0)
+Result: (45000.0, 75.2)
+***EVAL: (-2000.0, 5.0)+(45000.0, 75.2)
+Result: (43000.0, 80.2)
+parsing: )
+This is an operator: )
+***EVAL: (0.0, -14.5)%(43000.0, 80.2)
+Result: (43000.0, 65.7)
+The final value is: 
+***EVAL: (0.0, 12.3)+(43000.0, 65.7)
+Result: (43000.0, 78.0)
