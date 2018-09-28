@@ -8,7 +8,10 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-
+/**
+ * Buffer class responsible for the insertion and deletion of elements in two parallel storage arrays.
+ *
+ */
 public class Buffer {
     // locks
     private static Lock lock = new ReentrantLock();
@@ -29,6 +32,12 @@ public class Buffer {
         fill = 0;
     }
 
+    /**
+     * Prints data to the end user.
+     *
+     * @param deletion {boolean} true if delete thread is requesting feedback.
+     * @param printWriter {PrintWriter} used for documentation purposes.
+     */
     public void printData(boolean deletion, PrintWriter printWriter) {
         if (deletion)
             printWriter.println("DELETION ---Printing storage data for the dStore array, followed by the cStore array");
@@ -80,7 +89,7 @@ public class Buffer {
      *
      * @param id {String} the identifier of the computer.
      * @param amt {int} the count of the integers to delete from dStore and cStore.
-     * @param printWriter {Printwriter} a printwriter for documentation.
+     * @param printWriter {PrintWriter} a PrintWriter for documentation.
      */
     void deleteData(String id, int amt, PrintWriter printWriter) {
         lock.lock(); // lock the thread

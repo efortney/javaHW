@@ -16,7 +16,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * This program is an example of multi threading with ... //TODO
+ * This program is an example of multi threading with threads that
+ * are both in sync and coordinated. There is two threads, one for deletion
+ * and one for insertion. The insertion thread relies on the deletion thread in order
+ * to push elements into the array, as if there is not enough space in the array, the
+ * deletion thread needs to take over and remove elements from the array.
  */
 public class Main {
 
