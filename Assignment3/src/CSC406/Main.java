@@ -22,7 +22,7 @@ public class Main {
 
     public static void main(String[] args) throws FileNotFoundException {
         //Printwriter
-        PrintWriter printWriter = new PrintWriter(new File("test.txt"));
+        PrintWriter printWriter = new PrintWriter(new File("results.txt"));
 
         // buffer class
         Buffer buffer = new Buffer(printWriter);

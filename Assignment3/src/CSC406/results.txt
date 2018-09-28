@@ -19,27 +19,27 @@ INSERTION---Printing storage data for the dStore array, followed by the cStore a
 
 
 DELETION ---Printing storage data for the dStore array, followed by the cStore array
-   -3   -3   -3   -3   -3   78   78   78   78   78   78   13   13   13   13   13   13   13   13   22   22   22   22   22   22   22   22   22   22    0
-  PB1  PB1  PB1  PB1  PB1  FB1  FB1  FB1  FB1  FB1  FB1  PB1  PB1  PB1  PB1  PB1  PB1  PB1  PB1  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3 null
+   -3   -3   -3   -3   -3   78   78   78   78   13   13   13   13   13   13   13   13   22   22   22   22   22   22   22   22   22   22    0    0    0
+  PB1  PB1  PB1  PB1  PB1  FB1  FB1  FB1  FB1  PB1  PB1  PB1  PB1  PB1  PB1  PB1  PB1  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3 null null null
 
 
 DELETION ---Printing storage data for the dStore array, followed by the cStore array
-   -3   -3   -3   -3   -3   78   78   78   78   78   78   13   13   13   13   13   13   13   13   22   22   22   22   22   22   22   22   22   22    0
-  PB1  PB1  PB1  PB1  PB1  FB1  FB1  FB1  FB1  FB1  FB1  PB1  PB1  PB1  PB1  PB1  PB1  PB1  PB1  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3 null
+   -3   -3   78   78   78   78   13   13   13   13   13   13   13   22   22   22   22   22   22   22   22   22   22    0    0    0    0    0    0    0
+  PB1  PB1  FB1  FB1  FB1  FB1  PB1  PB1  PB1  PB1  PB1  PB1  PB1  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3 null null null null null null null
 
 
 DELETION ---Printing storage data for the dStore array, followed by the cStore array
-   -3   -3   -3   -3   -3   78   78   78   78   78   78   13   13   13   13   13   13   13   13   22   22   22   22   22   22   22   22   22   22    0
-  PB1  PB1  PB1  PB1  PB1  FB1  FB1  FB1  FB1  FB1  FB1  PB1  PB1  PB1  PB1  PB1  PB1  PB1  PB1  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3 null
+   -3   -3   78   78   78   78   13   13   13   13   13   13   13   22   22   22   22   22   22    0    0    0    0    0    0    0    0    0    0    0
+  PB1  PB1  FB1  FB1  FB1  FB1  PB1  PB1  PB1  PB1  PB1  PB1  PB1  MB3  MB3  MB3  MB3  MB3  MB3 null null null null null null null null null null null
 
 
 DELETION ---Printing storage data for the dStore array, followed by the cStore array
-   -3   -3   -3   -3   -3   78   78   78   78   78   78   13   13   13   13   13   13   13   13   22   22   22   22   22   22   22   22   22   22    0
-  PB1  PB1  PB1  PB1  PB1  FB1  FB1  FB1  FB1  FB1  FB1  PB1  PB1  PB1  PB1  PB1  PB1  PB1  PB1  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3  MB3 null
+   -3   78   78   78   78   13   13   13   13   13   22   22   22   22   22   22    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+  PB1  FB1  FB1  FB1  FB1  PB1  PB1  PB1  PB1  PB1  MB3  MB3  MB3  MB3  MB3  MB3 null null null null null null null null null null null null null null
 
 
 INSERTION---Printing storage data for the dStore array, followed by the cStore array
-   -3   -3   -3   -3   -3   78   78   78   78   78   78   13   13   13   13   13   75   75   75   75   75   75   22   22   22   22   22   22   22    0
-  PB1  PB1  PB1  PB1  PB1  FB1  FB1  FB1  FB1  FB1  FB1  PB1  PB1  PB1  PB1  PB1  FB4  FB4  FB4  FB4  FB4  FB4  MB3  MB3  MB3  MB3  MB3  MB3  MB3 null
+   -3   78   78   78   78   13   13   13   13   13   22   22   22   22   22   22   75   75   75   75   75   75    0    0    0    0    0    0    0    0
+  PB1  FB1  FB1  FB1  FB1  PB1  PB1  PB1  PB1  PB1  MB3  MB3  MB3  MB3  MB3  MB3  FB4  FB4  FB4  FB4  FB4  FB4 null null null null null null null null
 
 

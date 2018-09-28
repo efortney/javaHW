@@ -48,10 +48,10 @@ public class Buffer {
     }
 
     /**
-     * Inserts the integers into the dStore
+     * Inserts the integers into the dStore array and String value computerID into the cStore array.
      *
      * @param computerID {String} the identifier for the computer
-     * @param amt        {int} the count of the integers to add to the dStore
+     * @param amt        {int} the count of the integers to add to dStore and cStore.
      * @param value      {int} the integer to be inserted
      */
     void insertData(String computerID, int amt, int value, PrintWriter printWriter) {
@@ -75,24 +75,32 @@ public class Buffer {
         }
     }
 
-
+    /**
+     * Deletes data from both the dStore and the cStore arrays.
+     *
+     * @param id {String} the identifier of the computer.
+     * @param amt {int} the count of the integers to delete from dStore and cStore.
+     * @param printWriter {Printwriter} a printwriter for documentation.
+     */
     void deleteData(String id, int amt, PrintWriter printWriter) {
-        lock.lock();
-        int deleteCount = 1;
+        lock.lock(); // lock the thread
+        int deleteCount = 1; // int to count the number of deletions occurring
         try {
             while (fill < 1) {
                 infoStorage.await();
             }
+            // loop through the cStore and dStore arrays, removing the values that are being deleted
             for (int i = 0; i <= 29; i++) {
+                // if null, continue looping
                 if (cStore[i] == null) {
                     i++;
+                    // we have a match,
                 } else if (cStore[i].equalsIgnoreCase(id) && deleteCount <= amt) {
-                    cStore[i] = null;
-                    dStore[i] = 0;
                     deleteCount++;
-                    for(int j = 0; j < dStore.length - 1; j ++) {
-                        dStore[i] = dStore[i + 1];
-                        cStore[i] = cStore[i +1];
+                    // replace the values with the values of the slot above them one at a time
+                    for(int j = i; j < dStore.length - 1; j++) {
+                        dStore[j] = dStore[j + 1];
+                        cStore[j] = cStore[j + 1];
                     }
                 } else {
                     i++;
@@ -102,24 +110,28 @@ public class Buffer {
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
-            //cleanArray();
+            // print the data and unlock the thread
             printData(true, printWriter);
             infoStorage.signalAll();
             lock.unlock();
         }
     }
 
-    // storage
+    /**
+     * Storage thread, used for inserting values into the cStore and dStore arrays.
+     */
     public static class Store implements Runnable {
 
         Buffer bufferX;
         PrintWriter printWriter;
 
+        // constructor
         Store(Buffer bufferX, PrintWriter printWriter) {
             this.bufferX = bufferX;
             this.printWriter = printWriter;
         }
 
+        // runnable thread
         @Override
         public void run() {
             ArrayList<ComputerJob> jobs = new ArrayList<>();
@@ -138,7 +150,9 @@ public class Buffer {
         }
     }
 
-    // deletion
+    /**
+     * Deletion thread. Used for removing values from the dStore and the cStore arrays.
+     */
     public static class Delete implements Runnable {
         Buffer bufferX;
         PrintWriter printWriter;
